@@ -1,0 +1,722 @@
+<html>
+    <head>
+        <title>Publication Support Package</title>
+     
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header-section{
+         background: lightgray;
+     }
+     .header-section h2{
+         font-weight: bold;
+     }
+     .header-section p{
+         color: black;
+     }
+     .boc{
+        width: 100%;
+         background: white;
+         align-items: center;
+         margin: 0px;
+         padding: 10px;
+         box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+         transition: 0.4s ease;
+         border-radius: 9px;
+     }
+     .sec-header{
+         background: purple;
+         margin: 0;
+         padding: 30px;
+     }
+     .box{
+         justify-content: center;
+         align-items: center;
+         margin: 10px;
+         padding: 5px;
+         
+         transition: 0.4s ease;
+     }
+    
+       
+    
+     .card-body li{
+         list-style: none;
+         font-size: 1rem;
+         padding: 7px;
+     }
+     .card-body .cross{
+         color: gray;
+     }
+     .check{
+         color: greenyellow !important;
+     }
+     .card-head .advance{
+         color:orange;
+     }
+     .card-head .premium{
+         color:violet
+     }
+     .card-head .scientific{
+         color: teal;
+     }
+     .card-head p{
+         font-weight: bold;
+     }
+     .card-head .money{
+         font-weight: bold;
+         font-size: 2rem;
+         
+     }
+     .card-head h5{
+         padding-bottom: 19px;
+     }
+     .card-head .best{
+         background: orange;
+         background-size: cover;
+        padding: 13px;
+         font-size: 0.9rem;
+     }
+     .card-head .most{
+         background: violet;
+         padding: 13px;
+         font-size: 0.9rem;
+     }
+     .card-head .service{
+         background: teal;
+         padding: 13px;
+         font-size: 0.9rem;
+     }
+     .card:hover{
+        box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 ) !important;
+        
+     }
+     
+     .button a{
+      border: 1px solid white;
+      border-radius: 100px;
+      margin: 0 5px;
+      padding: 11px 35px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: center;
+
+    }
+    .button{
+        text-align: center;
+        margin-top:30px;
+    }
+    .button a:hover{
+      color: black;
+      background: white;
+      text-decoration: none;
+      box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+    }
+    .section2{
+         padding: 50px;
+         
+     }
+     .section2 h2{
+         font-weight: bold;
+     }
+     .boc{
+        width: 100%;
+         background: white;
+         align-items: center;
+         margin: 30px;
+         padding: 15px;
+         box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+         transition: 0.4s ease;
+         border-radius: 9px;
+     }
+     .box5{
+         border-left: 5px solid teal;
+     }
+     .box2{
+         border-left: 5px solid violet;
+     }
+     .box3{
+         border-left: 5px solid peru;
+     }
+     .box4{
+         border-left: 5px solid brown;
+     }
+     .boc .card-head{
+         font-weight: bold;
+     }
+     .boc .card-body{
+         font-size: 0.8rem;
+     }
+     .card-headr .call:hover{
+         color: blue;
+     }
+     .card-headr .cal{
+         background: lightgray;
+         color: blue;
+         border-radius: 2px;
+     }
+     .call{
+         padding: 5px;
+         
+         border-left: 1px solid black;
+     }
+     .footer{
+   background:purple;
+   width:100%;
+   padding: 50px;
+}
+.footer li{
+   list-style: none;
+   color: white;
+}
+.footer hr{
+   background-color:white;
+}
+.footer p{
+   color: white;
+}
+.footer .o{
+   font-size: 25px;
+   color: red;
+}
+
+     
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bold">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">EDITAGE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+           
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SEVICES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Fruit & Vegetable</a>
+                <a class="dropdown-item" href="#">Foodgrains oil & Masala</a>
+                <a class="dropdown-item" href="#">Bakery cake & dairy</a>
+                <a class="dropdown-item" href="#">Beverages</a>
+                <a class="dropdown-item" href="#">Snacks & branded food</a>
+                <a class="dropdown-item" href="#">Beauty & hygiene</a>
+                <a class="dropdown-item" href="#">Cleaning & household</a>
+                <a class="dropdown-item" href="#">Kitchen , Garden & pets</a>
+                <a class="dropdown-item" href="#">Eggs ,Meat & Fish</a>
+                <a class="dropdown-item" href="#">Gourmet & World Food</a>
+                <a class="dropdown-item" href="#">Babycare </a>
+                <a class="dropdown-item" href="#">View all</a>
+         
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    WHY CHOOSE US?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Fruit & Vegetable</a>
+                  <a class="dropdown-item" href="#">Foodgrains oil & Masala</a>
+                  <a class="dropdown-item" href="#">Bakery cake & dairy</a>
+                  <a class="dropdown-item" href="#">Beverages</a>
+                  <a class="dropdown-item" href="#">Snacks & branded food</a>
+                  <a class="dropdown-item" href="#">Beauty & hygiene</a>
+                  <a class="dropdown-item" href="#">Cleaning & household</a>
+                  <a class="dropdown-item" href="#">Kitchen , Garden & pets</a>
+                  <a class="dropdown-item" href="#">Eggs ,Meat & Fish</a>
+                  <a class="dropdown-item" href="#">Gourmet & World Food</a>
+                  <a class="dropdown-item" href="#">Babycare </a>
+                  <a class="dropdown-item" href="#">View all</a>
+           
+                </div>
+              </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOW IT WORK</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">INSIGHTS</a>
+                </li>
+            
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+           
+                <a class="nav-link" href="#">HELP</a>
+        
+        
+                <a class="nav-link" href="#">LOGIN</a>
+
+            <button class="btn btn-primary my-2 my-sm-2 type=submit">GET QUOTE</button>
+          </form>
+        </div>
+    </div>
+      </nav>
+
+      <section>
+          <div class="container">
+              <div  class="row">
+                  <div class="col-md-7">
+                      <h2 style="color: black; padding-top: 50px;">Accelerate your publication journey<span style="font-weight: bold;"> with our End-to-End support</span></h2>
+                      <h5 style="padding-top: 30px;"><li class="p-2"> Expert guidance at every step of publication</li>
+                      <li class="p-2">  Rejection protection enabled through robust journal-readiness support</li>
+                      <li class="p-2"> Save administrative time and effort </li>
+                      <li class="p-2"> Assistance to get published in the most suitable journals</li></h5>
+                      <a href="#" class="btn btn-primary p-2 m-2">Get Started</a>
+                  </div>
+                  <div class="col-md-5">
+                      <img src="img1.jpg" style="padding-top: 60px;height: 450px;">
+                  </div>
+              </div>
+          </div>
+          </section>
+
+
+          <section class="header-section">
+            <div class="container">
+                    <div class="text-center p-5">
+                        <h2>Maximise your chances of getting published</h2>
+                  
+                        <p class="p-3 " >Whether you are a Ph.D. student or a senior researcher, time is a precious commodity.
+                           Publishing your research can involve several hurdles. However, Editage’s experts help you at
+                            every step, so that your publishing journey is as smooth as it can be. Plus, we also offer 
+                            a range of service packages to choose from so that you find one that perfectly fits your
+                             requirements. Our expert panelists will review your paper and provide constructive comments to 
+                             help you improve your manuscript before submission to the journal of your choice. Our experts
+                              will work with you to determine the most suitable journals, assist in manuscript editing before
+                               submission, carry out a technical review, and provide post-submission support wherever necessary.</p>
+            
+                    </div>
+                
+                </div>
+                    </section>
+
+                    <section style="padding: 50px;">
+                      <div class="container">
+                        <div class="text-center p-5">
+                          <h2 style="font-weight: bold;">How can you avoid rejection ?</h2>
+                          <p>Based on peer-reviewed studies and journal recommendations, here are the top 7 reasons you might be getting rejected.</p>
+                          <h6 style="color: black; font-weight: bold;">Thankfully, we have a solution for all of them</h6>
+                        </div>
+
+                        <div class="card boc">
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <h4>Reasons for rejection</h4>
+                                    <p>Mismatch between journal scope and paper</p>
+                                    <hr>
+                                    <p>Gaps in research design</p>
+                                    <hr>
+                                    <p>Inconsistency or inaccuracy of data</p>
+                                    <hr>
+                                    <p>Weak literature review</p>
+                                    <hr>
+                                    <p>Problems with your supplementing tables and figures</p>
+                                    <hr>
+                                    <p>Inarticulate writing and weak paper structure</p>
+                                    <hr>
+                                    <p>Non-conformance with journal requirements</p>
+                                    <hr>
+
+                              </div>
+                              <div class="col-md-6">
+                                <h4>Reasons for rejection</h4>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="sec-header m-0">
+                      <div class="container">
+                      <div class="text-center text-white p-5">
+                          <h2>Our Publication Support Packs suit every need</h2>
+                          <p>We have carefully designed service packs that can match your various publishing needs and help you save upto 60%.</p>
+                      </div>
+                      <div class="row m-0">
+                          <div class="col-md-4 p-0 m-0">
+                              <div class="card box p-4">
+                                  <div class="box1">
+                                  <div class="card-head text-center"><h4 class="advance">Silver Pack</h4><span class="money">$712</span><h5>TIME:3 WEAKS</h5>
+                                  <h6 class="best">Budget publication-support package</h6>
+                                  </div>
+                                  <div class="card-body">
+                                      <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Selection</li>
+                                      <li><i class="fa fa-check check" aria-hidden="true"></i>Premium Editing</li>
+                                      <li><i class="fa fa-check check" aria-hidden="true"></i>Artwork Preparation</li>
+                                      <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Submission</li>
+                                      <li><i class="fa fa-check check" aria-hidden="true"></i>Plagiarism Check</li>
+                                      <li class="cross"><i class="fa fa-times" aria-hidden="true"></i>Resubmission Support</li>
+                                      <li class="cross"><i class="fa fa-times" aria-hidden="true"></i>Pre-submission Peer Review</li>
+                                  </div>
+                                  <div class="card-foot text-center">
+                                    <p style="color: blue; font-weight: bold;">Save Up to $300</p>
+                                      <a href="#" class="btn btn-primary">Select Silver Pack</a>
+                                  </div>
+                                </div>
+                                </div>
+                          </div>
+
+                          <div class="col-md-4 p-0 m-0">
+                            <div class="card box p-3">
+                                <div class="box1">
+                                <div class="card-head text-center"><h4 class="premium">Golden Pack</h4><span class="money">$912</span><h5>TIME:3 WEAKS</h5>
+                                <h6 class="most">End-to-end publication-focused support for up to two journals</h6>
+                                </div>
+                                <div class="card-body">
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Selection</li>
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Premium Editing</li>
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Artwork Preparation</li>
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Submission</li>
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Plagiarism Check</li>
+                                    <li><i class="fa fa-check check" aria-hidden="true"></i>Resubmission Support</li>
+                                    <li class="cross"><i class="fa fa-times" aria-hidden="true"></i>Pre-submission Peer Review</li>
+                                </div>
+                                <div class="card-foot text-center">
+                                  <p style="color: blue; font-weight: bold;">Save Up to $400</p>
+                                    <a href="#" class="btn btn-primary">Select Golden Pack</a>
+                                </div>
+                              </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-4 p-0 m-0">
+                          <div class="card box p-3">
+                              <div class="box1">
+                              <div class="card-head text-center"><h4 class="scientific">Platinum Pack</h4><span class="money">$1,152</span><h5>TIME:3 WEAKS</h5>
+                              <h6 class="service">High-end publication support, including a complete techical review</h6>
+                              </div>
+                              <div class="card-body">
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Selection</li>
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Premium Editing</li>
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Artwork Preparation</li>
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Journal Submission</li>
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Plagiarism Check</li>
+                                  <li><i class="fa fa-check check" aria-hidden="true"></i>Resubmission Support</li>
+                                  <li class="cross"><i class="fa fa-times" aria-hidden="true"></i>Pre-submission Peer Review</li>
+                              </div>
+                              <div class="card-foot text-center">
+                                <p style="color: blue; font-weight: bold;">Save Up to $500</p>
+                                  <a href="#" class="btn btn-primary">Select Platinum Pack</a>
+                              </div>
+                            </div>
+                            </div>
+                      </div>
+
+          
+          
+          
+                          
+                      </div>
+                      <div class="button">
+                      <a href="#">Compare All Features</a>
+                      </div>
+          
+                      </div>
+                   </section>
+
+
+
+
+                   <section class="section2">
+                    <div class="container">
+                        <div class="text-center p-5">
+                            <h2>Or, build your own Custom Pack</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4" style= "display:flex; align-items:center; justify-content: center;">
+                                <img src="editechimg.jpg" width="300px" height="500px">
+                            </div>
+
+                            
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="boc box5">
+                                        
+                                        <div class="card-head">Journal Submission
+                
+                                        </div>
+                                        <div class="card-body">
+                                           Our team of experts take over and help you with everything that’s needed to submit your manuscript.
+
+                                        </div>
+                                        <a href="#">View Sample</a>
+                                     
+                                      </div>
+
+                                      <div class="boc box5">
+                                        
+                                        <div class="card-head">Artwork Preparation
+                
+                                        </div>
+                                        <div class="card-body">
+                                           
+                                          Our graphic design specialists understand technical artwork guidelines and  with great accuracy and aesthetic improvements.
+
+                                        </div>
+                                        <a href="#">View Sample</a>
+                                     
+                                      </div>
+
+
+                                      <div class="boc box2">
+                                        
+                                        <div class="card-head">Premium Editing
+                
+                                        </div>
+                                        <div class="card-body">
+                                          Improve the language, structure, & flow of your manuscript and get unlimited re-editing and reformatting
+                                           support for multiple journals
+
+                                            </div>
+                                            <a href="#">View Sample</a>
+                                      </div>
+
+                                </div>
+                
+                
+                
+                
+                
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                  
+                                <div class="boc box3">
+                                
+                                    <div class="card-head">Journal Selection  </div>
+                                    <div class="card-body">
+                                      Our experts go through your manuscript and recommend the top 3 to 5 most suitable journals.
+
+                                    </div>
+                                    <a href="#">View Sample</a>
+                                  
+                                  </div>
+
+                                  <div class="boc box5">
+                                        
+                                    <div class="card-head">Plagiarism Check
+            
+                                    </div>
+                                    <div class="card-body">
+                                       
+                                      Our plagiarism check helps you identify parts of your manuscript that may get flagged by the
+                                       journal for accidental plagiarism.
+
+                                    </div>
+                                    <a href="#">View Sample</a>
+                                 
+                                  </div>
+
+
+
+                        <div class="boc box4">
+                                        
+                        <div class="card-head">Pre-submission Peer Review</div>
+                    <div class="card-body">
+                      Our experts identify gaps in your methodology with a thorough technical review before your paper is submitted 
+                      to your target journal.
+
+                    </div>
+                    <a href="#">View Sample</a>          
+                                      
+                    </div>
+
+                    </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-8">
+                <center><a href="#" class="btn btn-primary" style=" padding: 5px;">Start Costomising pack</a></center>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+        <section style="padding: 15px; background: lightcoral;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="img1.jpg" style="border-radius: 100px; width: 200px; height: 200px;">
+              </div>
+              <div class="col-md-9" style="padding: 30px;">
+                <h3 style="color: black; font-weight: bold;">Accelerate your publication journey</h3>
+                <p style="font-size: 0.9rem; color: black;">Get your own assistant to navigate complex journal submission processes that can save you from rejection and get you published faster.</p>
+              </div>
+            </div>
+
+          </div>
+          </section>  
+
+          <section class="section4">
+            <div class="container">
+            <div class="text-center p-5">
+                <h2 style="font-weight: bold;">Frequently Asked Questions</h2>
+            </div>
+            <div class="center">
+                <div class=contact>
+                    <p class="py"><span class="input">01</span>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC?</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><hr>
+                    
+                    <p class="py"><span class="input">02</span>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC 1914 translation by H. Rackham
+                        ?</p>
+                    <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                         atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                          similique sunt in culpa qui officia deserunt mollitia animi.</p><hr>
+                    
+                    <p class="py"><span class="input">03</span>What happens if you take wrong medication?</p>
+                    <p>However,Both health workers and patients can make mistakes by prescribing,
+                     dispensing, preparing, administering or consuming the wrong medication
+                     or the wrong dose at the wrong time, which could result in severe 
+                     harm, disability and even death.</p><hr>
+                    
+                    <p class="py"><span class="input">04</span>What does it mean when a drug is on allocation?</p>
+                    <p>What does “on allocation” mean? A product on allocation is one
+                     that is distributed in a manner that limits distribution of scarce
+                     supplies until a shortage is resolved.</p><hr>
+                    
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section style="padding: 10px; background: purple;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 text-white" style="padding: 30px;">
+                <h1>1100+<span style="font-size: 1rem; font-weight: bold;">Scientific Societies</span></h1>
+                <p style="font-weight: bold;">are associated with Editage across the globe</p>
+              </div>
+              <div class="col-md-8" style="padding: 30px;">
+               <p style="font-size: 0.9rem; color:white;">Editage complies with the highest standard of publication ethics in all its
+                 services and processes. In particular, Editage strictly follows authorship guidelines outlined by the International
+                  Council of Medical Journal Editors (ICMJE) and regularly updates the service scope as per the Committee of Publication
+                   Ethics (COPE) and International Society of Medical Publication Professionals (ISMPP) guidelines.
+
+              </p>
+              </div>
+            </div>
+
+          </div>
+          </section> 
+          
+          
+          <section class="ten-header">
+            <div class="container">
+            <div class="text-center p-5">
+                <h2 style="font-weight: bold;">What our users say</h2>
+            </div>
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+        
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="boc carousel-inner">
+              <div class="card-header carousel-item active">
+                <img src="img1.jpg" alt="Los Angeles">
+              </div>
+              <div class="card-body carousel-item">
+                <img src="img1.jpg" alt="Chicago">
+              </div>
+              <div class="card-footer carousel-item">
+                <img src="img1.jpg" alt="New York">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+          </div>
+          </section>
+        
+
+          <section class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 headings">
+                  <h6 class="text-white font-weight-bold">SERVICES</h6><br>
+                  <li>Advanced Editing Servics</li>
+                  <li>Premium Editing Servics</li>
+                  <li>Scientific Editing Servics</li>
+                  <li>Gold Publication Support Pack</li>
+                  <li>Silver Publication Support Pack</li>
+                  <li>Platinum Publication Support Pack</li>
+                  
+                </div>
+                
+                <div class="col-md-3 headings">
+                  <h6 class="text-white font-weight-bold">EDITAGE BENEFITS</h6><br>
+                  <li>Refer a Friend</li>
+                  <li>Editage For Lab</li>
+                  <li>Editage Prepaid Card</li>
+                  <li>Post Editing Support Page</li>
+                  <li>Editage Insights</li>
+                  <li>All About Publication</li>
+                </div>
+        
+                <div class="col-md-3 headings">
+                    <h6 class="text-white font-weight-bold">ABOUT EDITAGE</h6><br>
+                    <li>Payment Option </li>
+                    <li>FAQS</li>
+                    <li>partner With Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Team Of Us</li>
+                    <li>About Us</li>
+                  </div>
+                 
+            
+                <div class="col-md-3 headings">
+                  <h6 class="text-white font-weight-bold">CONTACT US</h6><br>
+                    <li>Call:&nbsp;+91 7896234589</li>
+                    <li>editage@gmail.com</li>
+                    <li><i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-telegram" aria-hidden="true">&nbsp;&nbsp;<i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-youtube-play" aria-hidden="true"></i>
+        
+                    </i>
+                    </li>
+        
+                  </div>
+        
+                </div>
+                <hr>
+        
+                <p><span class="o">CACTUS</span>&nbsp;&nbsp;&nbsp;© 2002—2020 Cactus Communications. All Rights Reserved</p>
+        
+        </div>
+        
+            </div>
+            
+            </section>
+        
+
+
+                 
+</body>
+</html>

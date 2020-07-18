@@ -1,0 +1,731 @@
+<html>
+    <head>
+        <title>EDITAGE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     a{
+         color:black;
+     }
+     
+         
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+         margin: 0;
+     }
+     .header {
+            padding: 80px;
+            text-align: center;
+            background-image:url("img5.jpg");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:fixed;
+            height:50%;
+            
+    }
+    .sec-part{
+        padding: 85px;
+        background-color: purple;
+        color:white;
+    
+    }
+    .sec-part h6{
+    
+        position: absolute;
+        right: 630px;
+        top:450px;
+        
+      
+      text-transform: uppercase;
+
+
+    }
+    .sec-part h3{
+        font-weight: bold;
+        position: absolute;
+        right: 450px;
+        top:500px;
+        font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    
+
+    
+    .sec-part .h5{
+        font-weight: bold;
+    }
+    .sec-part .row{
+        padding: 25px;
+        margin: 25px;
+      
+    }
+    .sec-part .c{
+         border-left: 5px solid gray;
+        padding:8px;
+    }
+    .sec-part .d{
+        border-left: 5px solid yellowgreen;
+        padding:8px;
+    }
+    .sec-part .e{
+        border-left: 5px solid cyan;
+        padding:8px;
+    }
+    .sec-part .f{
+        border-left: 5px solid burlywood;
+        padding:8px;
+    }
+    .sec-part .overall{
+        padding: 0px;
+    }
+    .headings{
+        margin-top: 60px;
+      margin-bottom: 50px;
+    }
+    .headings h1{
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .card{
+      transition: 0.4s ease;
+      box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+      
+      height: 300px;
+    }
+    .card-head{
+      font-size: 1.3rem;
+      font-weight: bold;
+      background: #fff;
+      padding: 25px 9!important;
+    }
+    .third-part{
+        padding-top : 40px;
+    }
+    .third-part p{
+        font-weight: bold;
+      font-size: 0.8rem;
+      padding: 10px 0 20px 0 ;
+    }
+    
+    .forth-part{ 
+        height: 500px;
+        background: lightgray;
+    }
+    .forth-part h2{
+        font-weight: bold;
+    }
+    .forth-part .{
+        
+    }
+    .fifth-part{
+        padding: 60px;
+    }
+    .fifth-part .t{
+        font-weight: bold;
+        color: black;
+    }
+    .fifth-part .u{
+        color: gray;
+    }
+    .row .col-md-2{
+        width: 200px;
+        height: 100px;
+    }
+    .box{
+    transition: 0.4s ease;
+      box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+      width: 200px;
+      height: 200px;
+    
+    }
+    .q{
+        border-left: 6px solid yellowgreen;
+    }
+    .w{
+        border-left: 6px solid violet;
+    }
+    .e{
+        border-left: 6px solid yellow;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+    .six-part .center{
+        
+			padding:20px;
+			margin:0 auto;
+			color:black;
+			width:59%;
+			height:80%;
+		
+			position:absolute;
+			right:330px;
+			top:2550px;
+			border-radius:10px;
+			font-family:sans-serif;
+	}
+    .six-part h2{
+        font-weight: bold;
+        color: black;
+    }
+    .six-part .input{
+        color: gray;
+    }
+    .six-part .py{
+        font-weight: bold;
+    }
+    .seven-part{
+        position: absolute;
+        top:3200px;
+        background: lightgray;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .seven-part .print{
+        padding: 50px;
+    }
+    .footer{
+        position: absolute;
+        top:3344px;
+        background:purple;
+        width:100%;
+    }
+    .footer li{
+        list-style: none;
+        color: white;
+    }
+    .footer hr{
+        background-color:white;
+    }
+    .footer p{
+        color: white;
+    }
+    .footer .o{
+        font-size: 25px;
+        color: red;
+    }
+    .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.forth-part a{
+    font-size: 30px;
+    margin:5px;
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.forth-part h6{
+    color: blue;
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bold">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Online Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+               
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SEVICES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Fruit & Vegetable</a>
+                    <a class="dropdown-item" href="#">Foodgrains oil & Masala</a>
+                    <a class="dropdown-item" href="#">Bakery cake & dairy</a>
+                    <a class="dropdown-item" href="#">Beverages</a>
+                    <a class="dropdown-item" href="#">Snacks & branded food</a>
+                    <a class="dropdown-item" href="#">Beauty & hygiene</a>
+                    <a class="dropdown-item" href="#">Cleaning & household</a>
+                    <a class="dropdown-item" href="#">Kitchen , Garden & pets</a>
+                    <a class="dropdown-item" href="#">Eggs ,Meat & Fish</a>
+                    <a class="dropdown-item" href="#">Gourmet & World Food</a>
+                    <a class="dropdown-item" href="#">Babycare </a>
+                    <a class="dropdown-item" href="#">View all</a>
+             
+                  </div>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WHY CHOOSE US?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Fruit & Vegetable</a>
+                      <a class="dropdown-item" href="#">Foodgrains oil & Masala</a>
+                      <a class="dropdown-item" href="#">Bakery cake & dairy</a>
+                      <a class="dropdown-item" href="#">Beverages</a>
+                      <a class="dropdown-item" href="#">Snacks & branded food</a>
+                      <a class="dropdown-item" href="#">Beauty & hygiene</a>
+                      <a class="dropdown-item" href="#">Cleaning & household</a>
+                      <a class="dropdown-item" href="#">Kitchen , Garden & pets</a>
+                      <a class="dropdown-item" href="#">Eggs ,Meat & Fish</a>
+                      <a class="dropdown-item" href="#">Gourmet & World Food</a>
+                      <a class="dropdown-item" href="#">Babycare </a>
+                      <a class="dropdown-item" href="#">View all</a>
+               
+                    </div>
+                  </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOW IT WORK</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">INSIGHTS</a>
+                    </li>
+                
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+               
+                    <a class="nav-link" href="#">HELP</a>
+            
+            
+                    <a class="nav-link" href="#">LOGIN</a>
+    
+                <button class="btn btn-primary my-2 my-sm-2 type=submit">GET QUOTE</button>
+              </form>
+            </div>
+        </div>
+          </nav>
+        <div class="header"></div>
+        <section class="sec-part">
+            <div class="overall">
+            <div>
+                <h6>100% QUALITY GUARANTEE</h6>
+                <h3>What good quality editing means to us</h3>
+              
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+            <h5>High Quality</h5>
+                <p class="c">You receive an error-free, journal-ready manuscript, checked for language, logic, 
+                    and consistency. Our thorough editing process delivers a well-written, perfectly formatted 
+                    manuscript that meets all kinds of global publication standards.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Subject-matter expertise</h5>
+                        <p class="d">We ensure that your manuscript is worked on by experts with extensive experience in your
+                             field of research. Our team of 2000+ Ph.D scholars from top global universities cover more than
+                              1300 subject areas ensures top quality for you </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>On-time delivery</h5>
+                                <p class="e">We respect your time and ensure that assignments are delivered to you by
+                                     the promised deadline. In the rare event that we cannot keep our promise, we will
+                                      refund 100% of the fee for the delayed assignment.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Confidentiality assured</h5>
+                                        <p class="f">We ensure that our systems are secure and maintain the safety of
+                                             your personal information, manuscripts, and intellectual property. Your 
+                                             information is never shared with third-party platforms.</p>
+                                        </div>
+                                                
+       </div>
+       </div>
+        </section>
+          
+
+        <section class="editage">
+            <div class= "container">
+            <div class=  "headings text-center">
+                <h1 class="text-center font-weight-bold">Editage service quality guarantee</h1>
+            </div>
+            <div class="boc">
+                <div class="row">
+                    <div class="col-md-4">
+                     <div class="card p-2">
+                         <div class="card-head"> Always on time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar-check-o class" aria-hidden="true"></i>
+
+                         </div>
+                         <div class="card-body text-center">
+                            We know how important your time is and we are proud of ALWAYS meeting our customers’
+                             deadlines -sometimes as quick as 8 hours. If your assignment is delayed by even 1 
+                             second, we promise to refund your full fee. No questions asked! </div>
+                           </div>
+                       
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-2">
+                            <div class="card-head">Confidentiality &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-expeditedssl class" aria-hidden="true"></i>
+
+                            </div>
+                            <div class="card-body text-center">
+                                Our 128-bit SSL encryption and ISO/IEC 27001:2013 certified IT security management 
+                                systems and processes mean researchers worldwide can submit their papers with 
+                                complete confidence that their intellectual property is safe with us.</div>
+                              </div>
+                          
+                       </div>
+                       <div class="col-md-4">
+                        <div class="card p-2">
+                            <div class="card-head"> Publication Ethics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-eercast class" aria-hidden="true"></i>
+
+                            </div>
+                            <div class="card-body text-center">
+                                Editage is commited to providing high-quality, ethical author services. We support
+                                 authors to publish ethically by implementing essential systems, optimizing editorial
+                                  processes, and through our author-education initiatives.</div>
+                              </div>
+                          
+                       </div>
+            
+         
+         
+            </div>
+        </section>
+
+
+        <section class="third-part text-center">
+            <p class="text-center">PROUD MEMBER OF</p>
+            <h2 class="font-weight-bold">GOPE</h2><h4>COMMITEE OF PUBLICATION ETHICS</h4>
+        </section>
+
+        <section class="forth-part ">
+            <div class="text-center p-5">
+            <h2>Trusted & endorsed by industry<br>experts & partners</h2>
+            </div>
+            <div class="dip">
+                <div class="container">
+                <div class="card text-center">
+                    <div class="row">
+                        <div class="col-md-4">
+                           <h6 class="p-4"> 40+ Journals</h6>
+                    
+                            <a href="#" class="fa fa-linkedin"></a>
+                    
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <br>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-pinterest"></a>
+                            
+                            
+                        </div>
+
+
+                           <div class="col-md-4">
+                            <h6 class="p-4"> 500+ Universities
+                            </h6>
+                     
+                            <a href="#" class="fa fa-snapchat-ghost"></a>
+                            <a href="#" class="fa fa-skype"></a>
+                            <a href="#" class="fa fa-android"></a>
+                            <br>
+                         
+                            <a href="#" class="fa fa-dribbble"></a>
+                            <a href="#" class="fa fa-vimeo"></a>
+                            <a href="#" class="fa fa-tumblr"></a>
+                              </div>
+
+
+
+                            <div class="col-md-4">
+                                <h6 class="p-4"> 1100+ Societies
+                                </h6>
+                                <a href="#" class="fa fa-vine"></a>
+                                <a href="#" class="fa fa-foursquare"></a>
+                                <a href="#" class="fa fa-stumbleupon"></a><br>
+
+                                 
+                                <a href="#" class="fa fa-flickr"></a>
+                                    <a href="#" class="fa fa-yahoo"></a>
+                                    <a href="#" class="fa fa-reddit"></a>
+                                     
+</div>
+
+
+                        </div>
+                    </div>
+                  </div>
+               
+            </div>
+            </div>
+        </section>
+
+        <section class="fifth-part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+
+                    <h2 class="t">Need to invoke the Editage quality guarantee?</h2>
+                    <p class="u">Our Quality Team will start work on your document immediately 
+                        and you will receive a resolution email within the business day.
+                    </p>
+                    </div>
+                    <div col-md-8>
+                    <div class=row>
+                        <div class=col-md-4>
+                            <div class="q">
+                            <div class="box">
+                                
+                             <br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar-check-o class" aria-hidden="true"></i>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Via form</h4>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go direct with our 2- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;click form.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=col-md-4>
+                            <div class="w">
+                            <div class="box">
+                                
+                             <br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar-check-o class" aria-hidden="true"></i>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat</h4>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat with a client &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manager for instant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;answers.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class=col-md-4>
+                            <div class="e">
+                            <div class="box">
+                                
+                             <br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar-check-o class" aria-hidden="true"></i>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email</h4>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send in your queries to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;request@editage.com</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+
+            </div>
+
+            </section>
+
+
+            <section class="six-part">
+                <div class="container">
+                <div class="text-center p-5">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="center">
+                    <div class=contact>
+                        <p class="py"><span class="input">01</span>. &nbsp; &nbsp;Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC?</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><hr>
+                        
+                        <p class="py"><span class="input">02</span>. &nbsp; &nbsp;Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC 1914 translation by H. Rackham
+                            ?</p>
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                             atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                              similique sunt in culpa qui officia deserunt mollitia animi.</p><hr>
+                        
+                        <p class="py"><span class="input">03</span>. &nbsp; &nbsp;What happens if you take wrong medication?</p>
+                        <p>However,Both health workers and patients can make mistakes by prescribing,
+                         dispensing, preparing, administering or consuming the wrong medication
+                         or the wrong dose at the wrong time, which could result in severe 
+                         harm, disability and even death.</p><hr>
+                        
+                        <p class="py"><span class="input">04</span>. &nbsp; &nbsp;What does it mean when a drug is on allocation?</p>
+                        <p>What does “on allocation” mean? A product on allocation is one
+                         that is distributed in a manner that limits distribution of scarce
+                         supplies until a shortage is resolved.</p><hr>
+                        
+                            </div>
+                </div>
+                </div>
+            </section>
+      
+           
+            <section class="seven-part">
+                <div class="container">
+                <div class="print">50,000+ happy customers in 192+ countries. Experience the Editage quality
+                    <button class="btn btn-primary my-2 my-sm-2 type=submit m-9">GET started</button>
+                </div>
+                </div>
+            </section>
+
+
+
+            <section class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-3 headings">
+                      <h6 class="text-white font-weight-bold">SERVICES</h6><br>
+                      <li>Advanced Editing Servics</li>
+                      <li>Premium Editing Servics</li>
+                      <li>Scientific Editing Servics</li>
+                      <li>Gold Publication Support Pack</li>
+                      <li>Silver Publication Support Pack</li>
+                      <li>Platinum Publication Support Pack</li>
+                      
+                    </div>
+                    
+                    <div class="col-md-3 headings">
+                      <h6 class="text-white font-weight-bold">EDITAGE BENEFITS</h6><br>
+                      <li>Refer a Friend</li>
+                      <li>Editage For Lab</li>
+                      <li>Editage Prepaid Card</li>
+                      <li>Post Editing Support Page</li>
+                      <li>Editage Insights</li>
+                      <li>All About Publication</li>
+                    </div>
+
+                    <div class="col-md-3 headings">
+                        <h6 class="text-white font-weight-bold">ABOUT EDITAGE</h6><br>
+                        <li>Payment Option </li>
+                        <li>FAQS</li>
+                        <li>partner With Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Team Of Us</li>
+                        <li>About Us</li>
+                      </div>
+                     
+                
+                    <div class="col-md-3 headings">
+                      <h6 class="text-white font-weight-bold">CONTACT US</h6><br>
+                        <li>Call:&nbsp;+91 7896234589</li>
+                        <li>editage@gmail.com</li>
+                        <li><i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-telegram" aria-hidden="true">&nbsp;&nbsp;<i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-youtube-play" aria-hidden="true"></i>
+
+                        </i>
+                        </li>
+
+                      </div>
+          
+                    </div>
+                    <hr>
+
+                    <p><span class="o">CACTUS</span>&nbsp;&nbsp;&nbsp;© 2002—2020 Cactus Communications. All Rights Reserved</p>
+
+            </div>
+            
+                </div>
+                
+                </section>
+
+    </body>
+</html>
